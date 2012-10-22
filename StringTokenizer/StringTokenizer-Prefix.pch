@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'StringTokenizer' target in the 'StringTokenizer' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
