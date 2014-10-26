@@ -1,5 +1,8 @@
 #Mac & iOS的string tokenizer
 
+## 2014.10.26 更新
+实现了swift版本
+
 ## 简介
 封装了CFStringTokenizer的NSString Category，可以方便的应用于Mac或者iOS APP， 其不但支持西方语言，更支持中文和日文这样没有空格分词的语言。
 

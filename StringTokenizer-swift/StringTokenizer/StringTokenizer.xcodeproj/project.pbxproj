@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF2D1B119FD06180032E456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2D1B019FD06180032E456 /* AppDelegate.swift */; };
+		BFF2D1B319FD06180032E456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2D1B219FD06180032E456 /* ViewController.swift */; };
+		BFF2D1B519FD06180032E456 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF2D1B419FD06180032E456 /* Images.xcassets */; };
+		BFF2D1B819FD06180032E456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF2D1B619FD06180032E456 /* Main.storyboard */; };
+		BFF2D1C419FD06180032E456 /* StringTokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2D1C319FD06180032E456 /* StringTokenizerTests.swift */; };
+		BFF2D1CE19FD06310032E456 /* StringTokenizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2D1CD19FD06310032E456 /* StringTokenizeExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF2D1BE19FD06180032E456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF2D1A319FD06180032E456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF2D1AA19FD06180032E456;
+			remoteInfo = StringTokenizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF2D1AB19FD06180032E456 /* StringTokenizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringTokenizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF2D1AF19FD06180032E456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF2D1B019FD06180032E456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFF2D1B219FD06180032E456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFF2D1B419FD06180032E456 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFF2D1B719FD06180032E456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF2D1BD19FD06180032E456 /* StringTokenizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringTokenizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF2D1C219FD06180032E456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF2D1C319FD06180032E456 /* StringTokenizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTokenizerTests.swift; sourceTree = "<group>"; };
+		BFF2D1CD19FD06310032E456 /* StringTokenizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTokenizeExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF2D1A819FD06180032E456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2D1BA19FD06180032E456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF2D1A219FD06180032E456 = {
+			isa = PBXGroup;
+			children = (
+				BFF2D1AD19FD06180032E456 /* StringTokenizer */,
+				BFF2D1C019FD06180032E456 /* StringTokenizerTests */,
+				BFF2D1AC19FD06180032E456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF2D1AC19FD06180032E456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2D1AB19FD06180032E456 /* StringTokenizer.app */,
+				BFF2D1BD19FD06180032E456 /* StringTokenizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF2D1AD19FD06180032E456 /* StringTokenizer */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2D1B019FD06180032E456 /* AppDelegate.swift */,
+				BFF2D1B219FD06180032E456 /* ViewController.swift */,
+				BFF2D1CD19FD06310032E456 /* StringTokenizeExtension.swift */,
+				BFF2D1B419FD06180032E456 /* Images.xcassets */,
+				BFF2D1B619FD06180032E456 /* Main.storyboard */,
+				BFF2D1AE19FD06180032E456 /* Supporting Files */,
+			);
+			path = StringTokenizer;
+			sourceTree = "<group>";
+		};
+		BFF2D1AE19FD06180032E456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2D1AF19FD06180032E456 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF2D1C019FD06180032E456 /* StringTokenizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2D1C319FD06180032E456 /* StringTokenizerTests.swift */,
+				BFF2D1C119FD06180032E456 /* Supporting Files */,
+			);
+			path = StringTokenizerTests;
+			sourceTree = "<group>";
+		};
+		BFF2D1C119FD06180032E456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2D1C219FD06180032E456 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF2D1AA19FD06180032E456 /* StringTokenizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF2D1C719FD06180032E456 /* Build configuration list for PBXNativeTarget "StringTokenizer" */;
+			buildPhases = (
+				BFF2D1A719FD06180032E456 /* Sources */,
+				BFF2D1A819FD06180032E456 /* Frameworks */,
+				BFF2D1A919FD06180032E456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringTokenizer;
+			productName = StringTokenizer;
+			productReference = BFF2D1AB19FD06180032E456 /* StringTokenizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF2D1BC19FD06180032E456 /* StringTokenizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF2D1CA19FD06180032E456 /* Build configuration list for PBXNativeTarget "StringTokenizerTests" */;
+			buildPhases = (
+				BFF2D1B919FD06180032E456 /* Sources */,
+				BFF2D1BA19FD06180032E456 /* Frameworks */,
+				BFF2D1BB19FD06180032E456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF2D1BF19FD06180032E456 /* PBXTargetDependency */,
+			);
+			name = StringTokenizerTests;
+			productName = StringTokenizerTests;
+			productReference = BFF2D1BD19FD06180032E456 /* StringTokenizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF2D1A319FD06180032E456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Lancy;
+				TargetAttributes = {
+					BFF2D1AA19FD06180032E456 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BFF2D1BC19FD06180032E456 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BFF2D1AA19FD06180032E456;
+					};
+				};
+			};
+			buildConfigurationList = BFF2D1A619FD06180032E456 /* Build configuration list for PBXProject "StringTokenizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF2D1A219FD06180032E456;
+			productRefGroup = BFF2D1AC19FD06180032E456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF2D1AA19FD06180032E456 /* StringTokenizer */,
+				BFF2D1BC19FD06180032E456 /* StringTokenizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF2D1A919FD06180032E456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2D1B519FD06180032E456 /* Images.xcassets in Resources */,
+				BFF2D1B819FD06180032E456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2D1BB19FD06180032E456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF2D1A719FD06180032E456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2D1B319FD06180032E456 /* ViewController.swift in Sources */,
+				BFF2D1B119FD06180032E456 /* AppDelegate.swift in Sources */,
+				BFF2D1CE19FD06310032E456 /* StringTokenizeExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF2D1B919FD06180032E456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF2D1C419FD06180032E456 /* StringTokenizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF2D1BF19FD06180032E456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF2D1AA19FD06180032E456 /* StringTokenizer */;
+			targetProxy = BFF2D1BE19FD06180032E456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF2D1B619FD06180032E456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF2D1B719FD06180032E456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF2D1C519FD06180032E456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF2D1C619FD06180032E456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFF2D1C819FD06180032E456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringTokenizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFF2D1C919FD06180032E456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringTokenizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFF2D1CB19FD06180032E456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StringTokenizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringTokenizer.app/Contents/MacOS/StringTokenizer";
+			};
+			name = Debug;
+		};
+		BFF2D1CC19FD06180032E456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StringTokenizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringTokenizer.app/Contents/MacOS/StringTokenizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF2D1A619FD06180032E456 /* Build configuration list for PBXProject "StringTokenizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2D1C519FD06180032E456 /* Debug */,
+				BFF2D1C619FD06180032E456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF2D1C719FD06180032E456 /* Build configuration list for PBXNativeTarget "StringTokenizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2D1C819FD06180032E456 /* Debug */,
+				BFF2D1C919FD06180032E456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFF2D1CA19FD06180032E456 /* Build configuration list for PBXNativeTarget "StringTokenizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF2D1CB19FD06180032E456 /* Debug */,
+				BFF2D1CC19FD06180032E456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF2D1A319FD06180032E456 /* Project object */;
+}
